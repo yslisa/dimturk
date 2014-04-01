@@ -35,6 +35,6 @@ function makeVector(count, content) {
 // Generate 1:N array 
 function genArray(N) {
 	var result = [];
-	result = makeArray(N, function(i) { return i+1; });
+	result = makeVector(N, function(i) { return i+1; });
 	return result;
 }
