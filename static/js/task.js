@@ -9,10 +9,7 @@ var psiTurk = PsiTurk(uniqueId, adServerLoc);
 
 // All pages to be loaded
 var pages = [
-	"instructions/instruct-1.html",
-	"instructions/instruct-2.html",
-	"instructions/instruct-3.html",
-	"instructions/instruct-ready.html",
+	"instruct.html",
 	"stage.html",
 	"postquestionnaire.html"
 ];
@@ -20,16 +17,14 @@ var pages = [
 psiTurk.preloadPages(pages);
 
 var instructionPages = [ // add as a list as many pages as you like
-	"instructions/instruct-1.html",
-	"instructions/instruct-2.html",
-	"instructions/instruct-3.html",
-	"instructions/instruct-ready.html"
+	"instruct.html"
 ];
 
 var points = 0;
 var game = 1;
 var numGames = 10;
 var feature = 0;
+
 
 
 /********************
@@ -45,7 +40,7 @@ var feature = 0;
 /********************
 * STROOP TEST       *
 ********************/
-var StroopExperiment = function() {
+var TestPhase = function() {
 
 	var wordon, // time word is presented
 	    listening = false;
@@ -103,7 +98,7 @@ var StroopExperiment = function() {
 			if (game > numGames)
 				finish();
 			else
-				StroopExperiment();
+				TestPhase();
 		}
 		// fixation cross
 		else {
@@ -129,16 +124,16 @@ var StroopExperiment = function() {
 			response;
 
 		switch (keyCode) {
-			case 49:
-				// "1"
+			case 66:
+				// "b"
 				response="1";
 				break;
-			case 50:
-				// "2"
+			case 78:
+				// "n"
 				response="2";
 				break;
-			case 51:
-				// "3"
+			case 77:
+				// "m"
 				response="3";
 				break;
 			default:
@@ -221,11 +216,11 @@ var StroopExperiment = function() {
 
 		// three stimuli
 		d3.select("#stim1")
-			.attr("src","/static/images/"+shape1+".png")
+			.attr("src","/static/images/stimuli/"+shape1+".png")
 		d3.select("#stim2")
-			.attr("src","/static/images/"+shape2+".png")
+			.attr("src","/static/images/stimuli/"+shape2+".png")
 		d3.select("#stim3")
-			.attr("src","/static/images/"+shape3+".png")
+			.attr("src","/static/images/stimuli/"+shape3+".png")
 	};
 
 	var remove_shape = function() {
@@ -245,6 +240,7 @@ var StroopExperiment = function() {
 	// Start the test
 	next();
 };
+	
 
 
 /****************
@@ -267,7 +263,11 @@ var Questionnaire = function() {
 		});
 
 	};
-
+	
+	finish = function() {
+		completeHIT();
+	};
+	
 	prompt_resubmit = function() {
 		replaceBody(error_message);
 		$("#resubmit").click(resubmit);
@@ -290,22 +290,29 @@ var Questionnaire = function() {
 	psiTurk.showPage('postquestionnaire.html');
 	psiTurk.recordTrialData({'phase':'postquestionnaire', 'status':'begin'});
 	
-	$("#next").click(function () {
+	$("#continue").click(function () {
 	    record_responses();
-	    psiTurk.saveData({
-            success: function(){
-                psiTurk.computeBonus('compute_bonus', function() { 
-                	psiTurk.completeHIT(); // when finished saving compute bonus, the quit
-                }); 
-            }, 
-            error: prompt_resubmit});
+	    psiTurk.teardownTask();
+    	    psiTurk.saveData({
+                success: function(){
+                    psiTurk.computeBonus('compute_bonus', function(){finish()}); 
+                }, 
+                error: prompt_resubmit});
 	});
     
 	
 };
 
+
+var completeHIT = function() {
+	// save data one last time here?
+	window.location= adServerLoc + "?uniqueId=" + psiTurk.taskdata.id;
+}
+
+
 // Task object to keep track of the current phase
 var currentview;
+
 
 /*******************
  * Run Task
@@ -313,6 +320,8 @@ var currentview;
 $(window).load( function(){
     psiTurk.doInstructions(
     	instructionPages, // a list of pages you want to display in sequence
-    	function() { currentview = new StroopExperiment(); } // what you want to do when you are done with instructions
+    	function() { currentview = new TestPhase(); } // what you want to do when you are done with instructions
     );
 });
+
+// vi: noexpandtab tabstop=4 shiftwidth=4
