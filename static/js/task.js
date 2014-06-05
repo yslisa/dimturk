@@ -5,37 +5,31 @@
  */
 
 // Initalize psiturk object
-var psiTurk = PsiTurk();
+var psiTurk = PsiTurk(uniqueId, adServerLoc);
 
 // All pages to be loaded
 var pages = [
-	"instruct.html",
-	"test.html",
+	"instructions/instruct-1.html",
+	"instructions/instruct-2.html",
+	"instructions/instruct-3.html",
+	"instructions/instruct-ready.html",
+	"stage.html",
 	"postquestionnaire.html"
 ];
 
 psiTurk.preloadPages(pages);
 
 var instructionPages = [ // add as a list as many pages as you like
-	"instruct.html"
+	"instructions/instruct-1.html",
+	"instructions/instruct-2.html",
+	"instructions/instruct-3.html",
+	"instructions/instruct-ready.html"
 ];
 
-// Stimuli for a basic Stroop experiment
-var stims = [
-	["SHIP", "red", "unrelated"],
-	["MONKEY", "green", "unrelated"],
-	["ZAMBONI", "blue", "unrelated"],
-	["RED", "red", "congruent"],
-	["GREEN", "green", "congruent"],
-	["BLUE", "blue", "congruent"],
-	["GREEN", "red", "incongruent"],
-	["BLUE", "green", "incongruent"],
-	["RED", "blue", "incongruent"]
-	];
-_.shuffle(stims);
-
-// Task object to keep track of the current phase
-var currentview;
+var points = 0;
+var game = 1;
+var numGames = 10;
+var feature = 0;
 
 
 /********************
@@ -51,24 +45,82 @@ var currentview;
 /********************
 * STROOP TEST       *
 ********************/
-var TestPhase = function() {
+var StroopExperiment = function() {
 
 	var wordon, // time word is presented
-	    listening = false,
-	    resp_prompt = '<p id="prompt">Type<br> "R" for Red<br>"B" for blue<br>"G" for green.';
+	    listening = false;
+
 	
+
+	// Stimuli 
+
+	var numTrials = 10; // number of trials
+
+	var stims = new Array(numTrials);
+
+	var color = ["1", "2", "3"];
+	var shape = ["1", "2", "3"];
+	var pattern = ["1", "2", "3"];
+
+
+	for (var i = 0; i < numTrials; i++) {
+		stims[i] = new Array();
+		// shuffle the three arrays
+		color = _.shuffle(color);
+		shape = _.shuffle(shape);
+		pattern = _.shuffle(pattern);
+		stims[i][0] = color[0]+shape[0]+pattern[0];
+		stims[i][1] = color[1]+shape[1]+pattern[1];
+		stims[i][2] = color[2]+shape[2]+pattern[2];
+	}
+	_.shuffle(stims);
+
+	// choose feature
+	/* 0 = green
+	   1 = red
+	   2 = yellow
+	   3 = square
+	   4 = circle
+	   5 = triangle
+	   6 = # # # 
+	   7 = • • •
+	   8 = ~ ~ ~
+	*/
+	if (game == 1)
+		feature = Math.floor(Math.random()*9)
+	else {
+		var randfeature = Math.floor(Math.random()*9)
+		// choose a feature (dimension different from the previous feature)
+		while (feature/3 == randfeature/3)
+			randfeature = Math.floor(Math.random()*9)
+		feature = randfeature
+	}
+
 	var next = function() {
+		// end
 		if (stims.length===0) {
-			finish();
+			game+=1;
+			if (game > numGames)
+				finish();
+			else
+				StroopExperiment();
 		}
+		// fixation cross
 		else {
 			stim = stims.shift();
-			show_word( stim[0], stim[1] );
-			wordon = new Date().getTime();
-			listening = true;
-			$('#query').html(resp_prompt).show();
+			show_shape("blank", "Fix", "blank");
+			setTimeout(present_stimuli, 1000)
+			
 		}
 	};
+
+	// present 3 shapes
+	var present_stimuli = function() {
+		show_shape(stim[0], stim[1], stim[2]);
+		wordon = new Date().getTime();
+		listening = true;
+		d3.select("#query").html('<br><p id="prompt">Type "1" for the first shape, "2" for the second, "3" for the third.</p>');
+	}
 	
 	var response_handler = function(e) {
 		if (!listening) return;
@@ -77,17 +129,17 @@ var TestPhase = function() {
 			response;
 
 		switch (keyCode) {
-			case 82:
-				// "R"
-				response="red";
+			case 49:
+				// "1"
+				response="1";
 				break;
-			case 71:
-				// "G"
-				response="green";
+			case 50:
+				// "2"
+				response="2";
 				break;
-			case 66:
-				// "B"
-				response="blue";
+			case 51:
+				// "3"
+				response="3";
 				break;
 			default:
 				response = "";
@@ -95,24 +147,54 @@ var TestPhase = function() {
 		}
 		if (response.length>0) {
 			listening = false;
-			var hit = response == stim[1];
-			var rt = new Date().getTime() - wordon;
+			//var hit = response == stim[3];           // whether the participant chose the correct dimension
+			var compare = stim[response-1].charAt(feature/3)
+			var hit = compare == (feature%3)+1
+			var rt = new Date().getTime() - wordon;  // reaction time
+			var gained = 0;
 
-			psiTurk.recordTrialData({'phase':"TEST",
-                                                 'word':stim[0],
-                                                 'color':stim[1],
-                                                 'relation':stim[2],
-                                                 'response':response,
-                                                 'hit':hit,
-                                                 'rt':rt}
-                                               );
-// ["TEST", stim[0], stim[1], stim[2],
-//                                                  response, hit, rt]);
+			if (rt > 2000) {
+				show_shape("blank", "Slow", "blank");
+			}
 
+			else {
+				var rand = Math.random();
+				if (hit) {
+					
+					// +1 with .75 probability
+					if (rand < 0.75) {
+						points+=1;
+						gained = 1;
+						show_shape("blank", "Win", "blank");
+					}
+					else {
+						show_shape("blank", "Lose", "blank");
+					}
+				}
+				else {
+					// +1 with .25 probability
+					if (rand < 0.75)
+						show_shape("blank", "Lose", "blank");
+					else { 
+						points+=1;
+						gained = 1;
+						show_shape("blank", "Win", "blank");
+					}
+				}
+			}
 
-			
-			remove_word();
-			next();
+			psiTurk.recordTrialData({'phase':game,
+                                     'stimuli1':stim[0],
+                                     'stimuli2':stim[1],
+                                     'stimuli3':stim[2],
+                                     'feature': feature,  // feature
+                                     'response':response, // user input
+                                     'hit':hit,           // whether correct feature was chosen
+                                     'outcome':gained,    // point earned
+                                     'rt':rt}
+                                   );
+
+			setTimeout(next, 1000);
 		}
 	};
 
@@ -121,22 +203,40 @@ var TestPhase = function() {
 	    currentview = new Questionnaire();
 	};
 	
-	
-	// Load the test.html snippet into the body of the page
-	psiTurk.showPage('test.html');
-	
-	// This uses the Raphael library to create the stimulus. Note that when
-	// this is created the first argument is the id of an element in the
-	// HTML page (a div with id 'stim')
-	var R = Raphael("stim", 500, 200),
-		font = "100px Helvetica";
-	
-	var show_word = function(text, color) {
-		R.text( 250, 100, text ).attr({font: font, fill: color});
+	var show_shape = function(shape1, shape2, shape3) {
+		remove_shape();
+		// diplay game#
+		d3.select("#points")
+			.append("div")
+			.attr("id","gamenum")
+			.style("text-align","left")
+			.text("Game: "+game)
+
+		// display total points
+		d3.select("#points")
+			.append("div")
+			.attr("id","total")
+			.style("text-align","right")
+			.text("Points: "+points)
+
+		// three stimuli
+		d3.select("#stim1")
+			.attr("src","/static/images/"+shape1+".png")
+		d3.select("#stim2")
+			.attr("src","/static/images/"+shape2+".png")
+		d3.select("#stim3")
+			.attr("src","/static/images/"+shape3+".png")
 	};
-	var remove_word = function(text, color) {
-		R.clear();
+
+	var remove_shape = function() {
+		d3.select("#total").remove();
+		d3.select("#gamenum").remove();
+		//d3.select("#win").remove();
 	};
+
+	
+	// Load the stage.html snippet into the body of the page
+	psiTurk.showPage('stage.html');
 
 	// Register the response handler that is defined above to handle any
 	// key down events.
@@ -167,11 +267,7 @@ var Questionnaire = function() {
 		});
 
 	};
-	
-	finish = function() {
-		completeHIT();
-	};
-	
+
 	prompt_resubmit = function() {
 		replaceBody(error_message);
 		$("#resubmit").click(resubmit);
@@ -194,25 +290,22 @@ var Questionnaire = function() {
 	psiTurk.showPage('postquestionnaire.html');
 	psiTurk.recordTrialData({'phase':'postquestionnaire', 'status':'begin'});
 	
-	$("#continue").click(function () {
+	$("#next").click(function () {
 	    record_responses();
-	    psiTurk.teardownTask();
-    	    psiTurk.saveData({
-                success: function(){
-                    psiTurk.computeBonus('compute_bonus', function(){finish()}); 
-                }, 
-                error: prompt_resubmit});
+	    psiTurk.saveData({
+            success: function(){
+                psiTurk.computeBonus('compute_bonus', function() { 
+                	psiTurk.completeHIT(); // when finished saving compute bonus, the quit
+                }); 
+            }, 
+            error: prompt_resubmit});
 	});
     
 	
 };
 
-
-var completeHIT = function() {
-	// save data one last time here?
-	window.location= adServerLoc + "?uniqueId=" + psiTurk.taskdata.id;
-}
-
+// Task object to keep track of the current phase
+var currentview;
 
 /*******************
  * Run Task
@@ -220,8 +313,6 @@ var completeHIT = function() {
 $(window).load( function(){
     psiTurk.doInstructions(
     	instructionPages, // a list of pages you want to display in sequence
-    	function() { currentview = new TestPhase(); } // what you want to do when you are done with instructions
+    	function() { currentview = new StroopExperiment(); } // what you want to do when you are done with instructions
     );
 });
-
-// vi: noexpandtab tabstop=4 shiftwidth=4

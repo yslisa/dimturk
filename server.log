@@ -1,354 +1,466 @@
-2014-03-26 13:51:41,322 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 13:51:41,351 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 13:51:41,460 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 13:51:41,470 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 13:51:41,481 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:11:37,462 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:11:37,512 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:11:37,539 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:11:37,574 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:11:37,583 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:15:19,416 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:15:19,427 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:15:19,457 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:15:19,488 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:15:19,499 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:21:23,710 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:21:23,880 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:21:24,075 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:21:24,103 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:21:24,116 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:37:37,890 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:37:37,901 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:37:37,925 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:37:37,946 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 14:37:37,954 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 15:25:42 [6915] [CRITICAL] WORKER TIMEOUT (pid:6920)
-2014-03-26 15:25:49 [6915] [CRITICAL] WORKER TIMEOUT (pid:6921)
-2014-03-26 15:25:49 [6915] [CRITICAL] WORKER TIMEOUT (pid:6922)
-2014-03-26 15:25:49 [6915] [CRITICAL] WORKER TIMEOUT (pid:6923)
-2014-03-26 15:25:49 [6915] [CRITICAL] WORKER TIMEOUT (pid:6919)
-2014-03-26 15:25:49 [6915] [CRITICAL] WORKER TIMEOUT (pid:6921)
-2014-03-26 15:25:49 [6915] [CRITICAL] WORKER TIMEOUT (pid:6922)
-2014-03-26 15:25:49 [6915] [CRITICAL] WORKER TIMEOUT (pid:6923)
-2014-03-26 15:25:49 [6915] [CRITICAL] WORKER TIMEOUT (pid:6919)
-2014-03-26 15:25:52,688 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 15:25:52,702 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 15:25:52,709 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 15:25:52,716 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 15:25:52,740 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6952)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6953)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6949)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6950)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6951)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6952)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6953)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6949)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6950)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6951)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6949)
-2014-03-26 17:14:36 [6915] [CRITICAL] WORKER TIMEOUT (pid:6951)
-2014-03-26 17:14:37,627 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 17:14:37,640 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 17:14:37,651 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 17:14:37,658 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 17:14:37,676 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 19:03:29 [6915] [CRITICAL] WORKER TIMEOUT (pid:6962)
-2014-03-26 19:03:29 [6915] [CRITICAL] WORKER TIMEOUT (pid:6963)
-2014-03-26 19:03:29 [6915] [CRITICAL] WORKER TIMEOUT (pid:6964)
-2014-03-26 19:03:29 [6915] [CRITICAL] WORKER TIMEOUT (pid:6965)
-2014-03-26 19:03:29 [6915] [CRITICAL] WORKER TIMEOUT (pid:6966)
-2014-03-26 19:03:29 [6915] [CRITICAL] WORKER TIMEOUT (pid:6964)
-2014-03-26 19:03:29 [6915] [CRITICAL] WORKER TIMEOUT (pid:6965)
-2014-03-26 19:03:29 [6915] [CRITICAL] WORKER TIMEOUT (pid:6966)
-2014-03-26 19:03:30,467 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 19:03:30,481 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 19:03:30,611 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 19:03:30,612 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 19:03:30,621 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6976)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6977)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6978)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6979)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6975)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6976)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6977)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6978)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6979)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6975)
-2014-03-26 20:52:23 [6915] [CRITICAL] WORKER TIMEOUT (pid:6978)
-2014-03-26 20:52:24,555 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 20:52:24,591 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 20:52:24,641 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 20:52:24,650 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 20:52:24,666 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6986)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6987)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6988)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6989)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6990)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6986)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6987)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6988)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6989)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6990)
-2014-03-26 22:41:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:6990)
-2014-03-26 22:41:18,641 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 22:41:18,678 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 22:41:18,730 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 22:41:18,735 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-26 22:41:18,742 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:6997)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:6998)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:6999)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:7000)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:7001)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:6997)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:6998)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:6999)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:7000)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:7001)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:6997)
-2014-03-27 00:30:10 [6915] [CRITICAL] WORKER TIMEOUT (pid:7001)
-2014-03-27 00:30:19,591 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 00:30:19,798 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 00:30:19,869 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 00:30:19,886 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 00:30:19,887 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 01:32:18 [6915] [CRITICAL] WORKER TIMEOUT (pid:7008)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7010)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7012)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7013)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7014)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7008)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7010)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7012)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7013)
-2014-03-27 01:32:25 [6915] [CRITICAL] WORKER TIMEOUT (pid:7014)
-2014-03-27 01:32:29,543 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 01:32:29,543 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 01:32:29,543 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 01:32:29,544 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 01:32:29,544 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7024)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7025)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7026)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7027)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7028)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7024)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7025)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7026)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7027)
-2014-03-27 03:21:12 [6915] [CRITICAL] WORKER TIMEOUT (pid:7028)
-2014-03-27 03:21:21,067 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 03:21:21,077 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 03:21:21,090 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 03:21:21,158 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 03:21:21,167 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7040)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7041)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7042)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7043)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7039)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7040)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7041)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7042)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7043)
-2014-03-27 05:10:06 [6915] [CRITICAL] WORKER TIMEOUT (pid:7039)
-2014-03-27 05:10:06,979 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 05:10:06,961 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 05:10:07,014 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 05:10:07,037 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 05:10:07,044 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7052)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7054)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7055)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7056)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7057)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7052)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7054)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7055)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7056)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7057)
-2014-03-27 06:59:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7057)
-2014-03-27 06:59:01,047 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 06:59:01,068 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 06:59:01,073 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 06:59:01,119 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 06:59:01,152 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7065)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7066)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7067)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7068)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7069)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7065)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7066)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7067)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7068)
-2014-03-27 08:14:52 [6915] [CRITICAL] WORKER TIMEOUT (pid:7069)
-2014-03-27 08:15:00,058 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 08:15:00,060 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 08:15:00,086 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 08:15:00,086 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 08:15:00,098 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7076)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7077)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7078)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7079)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7080)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7076)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7077)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7078)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7079)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7080)
-2014-03-27 10:01:26 [6915] [CRITICAL] WORKER TIMEOUT (pid:7080)
-2014-03-27 10:01:27,005 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 10:01:27,036 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 10:01:27,154 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 10:01:27,183 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 10:01:27,197 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7088)
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7089)
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7090)
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7091)
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7092)
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7089)
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7090)
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7091)
-2014-03-27 11:50:19 [6915] [CRITICAL] WORKER TIMEOUT (pid:7092)
-2014-03-27 11:50:28,076 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 11:50:28,125 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 11:50:28,148 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 11:50:28,139 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 11:50:28,152 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7104)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7100)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7101)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7102)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7103)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7104)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7100)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7101)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7102)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7103)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7102)
-2014-03-27 13:39:13 [6915] [CRITICAL] WORKER TIMEOUT (pid:7103)
-2014-03-27 13:39:14,826 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 13:39:14,845 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 13:39:14,899 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 13:39:14,907 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 13:39:14,914 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7112)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7113)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7114)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7115)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7116)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7112)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7113)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7114)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7115)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7116)
-2014-03-27 14:38:45 [6915] [CRITICAL] WORKER TIMEOUT (pid:7116)
-2014-03-27 14:38:46,705 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:38:46,879 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:38:46,923 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:38:46,947 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:38:46,949 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:58:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7123)
-2014-03-27 14:58:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7124)
-2014-03-27 14:58:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7125)
-2014-03-27 14:58:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7126)
-2014-03-27 14:58:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7127)
-2014-03-27 14:58:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7125)
-2014-03-27 14:58:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7126)
-2014-03-27 14:58:00 [6915] [CRITICAL] WORKER TIMEOUT (pid:7127)
-2014-03-27 14:58:07,998 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:58:08,013 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:58:08,052 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:58:08,057 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 14:58:08,059 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7150)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7151)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7152)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7153)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7154)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7150)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7151)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7152)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7153)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7154)
-2014-03-27 15:16:53 [6915] [CRITICAL] WORKER TIMEOUT (pid:7154)
-2014-03-27 15:16:54,210 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 15:16:54,337 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 15:16:54,397 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 15:16:54,416 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 15:16:54,433 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7162)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7163)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7164)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7165)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7166)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7162)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7163)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7164)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7165)
-2014-03-27 17:05:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7166)
-2014-03-27 17:05:49,463 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:05:49,484 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:05:49,487 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:05:49,504 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:05:49,512 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7173)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7174)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7175)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7176)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7177)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7173)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7174)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7175)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7176)
-2014-03-27 17:14:48 [6915] [CRITICAL] WORKER TIMEOUT (pid:7177)
-2014-03-27 17:14:49,428 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:14:49,593 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:14:49,608 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:14:49,634 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:14:49,639 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:30:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:7183)
-2014-03-27 17:30:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:7184)
-2014-03-27 17:30:17 [6915] [CRITICAL] WORKER TIMEOUT (pid:7185)
-2014-03-27 17:30:24 [6915] [CRITICAL] WORKER TIMEOUT (pid:7186)
-2014-03-27 17:30:24 [6915] [CRITICAL] WORKER TIMEOUT (pid:7187)
-2014-03-27 17:30:24 [6915] [CRITICAL] WORKER TIMEOUT (pid:7185)
-2014-03-27 17:30:24 [6915] [CRITICAL] WORKER TIMEOUT (pid:7186)
-2014-03-27 17:30:24 [6915] [CRITICAL] WORKER TIMEOUT (pid:7187)
-2014-03-27 17:30:27,169 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:30:27,250 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:30:27,261 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:30:27,289 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:30:27,297 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:45:28 [6915] [CRITICAL] WORKER TIMEOUT (pid:7316)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7317)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7318)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7319)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7320)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7316)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7317)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7318)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7319)
-2014-03-27 17:45:35 [6915] [CRITICAL] WORKER TIMEOUT (pid:7320)
-2014-03-27 17:45:38,199 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:45:38,406 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:45:38,410 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:45:38,463 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:45:38,468 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:57:03,359 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:57:03,368 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:57:03,375 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:57:03,398 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-27 17:57:03,404 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-28 12:59:06,726 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-28 12:59:06,729 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-28 12:59:06,729 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-28 12:59:06,748 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-03-28 12:59:06,750 /Users/AngelaR/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,203 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,302 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,364 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,452 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,617 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,644 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,675 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,689 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-05-12 13:21:00,709 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,253 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,254 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,277 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,353 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,422 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,440 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,494 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,515 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-02 22:50:52,515 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,197 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,197 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,197 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,197 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,198 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,198 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,198 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,198 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:07:19,208 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:03,931 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 223, in advertisement
+    filter(Participant.workerid == workerId).\
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2593, in count
+    return self.from_self(col).scalar()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2392, in scalar
+    ret = self.one()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2361, in one
+    ret = list(self)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2404, in __iter__
+    return self._execute_and_instances(context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2419, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 720, in execute
+    return meth(self, multiparams, params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 317, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 817, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 947, in _execute_context
+    context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1108, in _handle_dbapi_exception
+    exc_info
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 185, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 940, in _execute_context
+    context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 435, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (OperationalError) no such table: turkdemo u'SELECT count(*) AS count_1 \nFROM (SELECT turkdemo.uniqueid AS turkdemo_uniqueid, turkdemo.assignmentid AS turkdemo_assignmentid, turkdemo.workerid AS turkdemo_workerid, turkdemo.hitid AS turkdemo_hitid, turkdemo.ipaddress AS turkdemo_ipaddress, turkdemo.browser AS turkdemo_browser, turkdemo.platform AS turkdemo_platform, turkdemo.language AS turkdemo_language, turkdemo.cond AS turkdemo_cond, turkdemo.counterbalance AS turkdemo_counterbalance, turkdemo.codeversion AS turkdemo_codeversion, turkdemo.beginhit AS turkdemo_beginhit, turkdemo.beginexp AS turkdemo_beginexp, turkdemo.endhit AS turkdemo_endhit, turkdemo.bonus AS turkdemo_bonus, turkdemo.status AS turkdemo_status, turkdemo.datastring AS turkdemo_datastring \nFROM turkdemo \nWHERE turkdemo.assignmentid != ? AND turkdemo.workerid = ?) AS anon_1' (u'debugF541GH', u'debugV2LG8K')
+2014-06-03 01:24:21,334 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:21,524 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:21,560 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:21,696 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:21,715 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:21,782 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:21,802 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:21,825 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:24:21,852 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:30,568 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 223, in advertisement
+    filter(Participant.workerid == workerId).\
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2593, in count
+    return self.from_self(col).scalar()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2392, in scalar
+    ret = self.one()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2361, in one
+    ret = list(self)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2404, in __iter__
+    return self._execute_and_instances(context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2419, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 720, in execute
+    return meth(self, multiparams, params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 317, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 817, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 947, in _execute_context
+    context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1108, in _handle_dbapi_exception
+    exc_info
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 185, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 940, in _execute_context
+    context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 435, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (OperationalError) no such table: turkdemo u'SELECT count(*) AS count_1 \nFROM (SELECT turkdemo.uniqueid AS turkdemo_uniqueid, turkdemo.assignmentid AS turkdemo_assignmentid, turkdemo.workerid AS turkdemo_workerid, turkdemo.hitid AS turkdemo_hitid, turkdemo.ipaddress AS turkdemo_ipaddress, turkdemo.browser AS turkdemo_browser, turkdemo.platform AS turkdemo_platform, turkdemo.language AS turkdemo_language, turkdemo.cond AS turkdemo_cond, turkdemo.counterbalance AS turkdemo_counterbalance, turkdemo.codeversion AS turkdemo_codeversion, turkdemo.beginhit AS turkdemo_beginhit, turkdemo.beginexp AS turkdemo_beginexp, turkdemo.endhit AS turkdemo_endhit, turkdemo.bonus AS turkdemo_bonus, turkdemo.status AS turkdemo_status, turkdemo.datastring AS turkdemo_datastring \nFROM turkdemo \nWHERE turkdemo.assignmentid != ? AND turkdemo.workerid = ?) AS anon_1' (u'debugP9VVM0', u'debug1JPJAD')
+2014-06-03 01:27:41,596 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:41,818 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:42,016 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:42,061 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:42,183 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:42,238 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:42,247 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:42,258 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 01:27:42,264 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:01,838 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:02,149 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:02,269 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:02,420 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:02,449 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:02,457 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:02,471 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:02,476 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:07:02,492 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 02:22:06,058 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 253, in advertisement
+    workerid = workerId)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: thanks.html
+2014-06-03 02:22:07,039 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 253, in advertisement
+    workerid = workerId)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: thanks.html
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3334)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3335)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3336)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3337)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3338)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3339)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3340)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3341)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3342)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3334)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3335)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3336)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3337)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3338)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3339)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3340)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3341)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3342)
+2014-06-03 03:12:13 [3330] [CRITICAL] WORKER TIMEOUT (pid:3342)
+2014-06-03 03:12:18,202 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 03:12:18,202 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 03:12:18,202 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 03:12:18,203 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 03:12:18,203 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 03:12:18,203 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 03:12:18,204 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 03:12:18,220 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 03:12:18,224 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 04:30:11,152 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 253, in advertisement
+    workerid = workerId)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: thanks.html
+2014-06-03 04:30:13,363 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 253, in advertisement
+    workerid = workerId)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: thanks.html
+2014-06-03 05:15:30,875 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 253, in advertisement
+    workerid = workerId)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: thanks.html
+2014-06-03 05:15:32,212 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 253, in advertisement
+    workerid = workerId)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: thanks.html
+2014-06-03 06:03:42 [3330] [CRITICAL] WORKER TIMEOUT (pid:3565)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3567)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3568)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3569)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3570)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3571)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3572)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3566)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3564)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3565)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3567)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3568)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3569)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3570)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3571)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3572)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3566)
+2014-06-03 07:17:37 [3330] [CRITICAL] WORKER TIMEOUT (pid:3564)
+2014-06-03 07:17:45,853 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:17:45,855 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:17:45,856 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:17:45,858 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:17:45,861 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:17:45,862 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:17:45,862 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:17:45,864 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:17:45,865 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:56:49,190 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/user_utils.py", line 11, in new_func
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 223, in advertisement
+    filter(Participant.workerid == workerId).\
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2593, in count
+    return self.from_self(col).scalar()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2392, in scalar
+    ret = self.one()
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2361, in one
+    ret = list(self)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2404, in __iter__
+    return self._execute_and_instances(context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2419, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 720, in execute
+    return meth(self, multiparams, params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 317, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 817, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 947, in _execute_context
+    context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1108, in _handle_dbapi_exception
+    exc_info
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 185, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 940, in _execute_context
+    context)
+  File "/Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 435, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (OperationalError) no such table: turkdemo u'SELECT count(*) AS count_1 \nFROM (SELECT turkdemo.uniqueid AS turkdemo_uniqueid, turkdemo.assignmentid AS turkdemo_assignmentid, turkdemo.workerid AS turkdemo_workerid, turkdemo.hitid AS turkdemo_hitid, turkdemo.ipaddress AS turkdemo_ipaddress, turkdemo.browser AS turkdemo_browser, turkdemo.platform AS turkdemo_platform, turkdemo.language AS turkdemo_language, turkdemo.cond AS turkdemo_cond, turkdemo.counterbalance AS turkdemo_counterbalance, turkdemo.codeversion AS turkdemo_codeversion, turkdemo.beginhit AS turkdemo_beginhit, turkdemo.beginexp AS turkdemo_beginexp, turkdemo.endhit AS turkdemo_endhit, turkdemo.bonus AS turkdemo_bonus, turkdemo.status AS turkdemo_status, turkdemo.datastring AS turkdemo_datastring \nFROM turkdemo \nWHERE turkdemo.assignmentid != ? AND turkdemo.workerid = ?) AS anon_1' (u'debugI1JBOF', u'debug72ASLW')
+2014-06-03 07:57:02,195 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:57:02,210 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:57:02,211 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:57:02,216 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:57:02,232 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:57:02,245 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:57:02,254 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:57:02,259 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 07:57:02,300 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,138 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,467 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,668 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,690 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,750 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,773 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,774 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,774 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:04:40,782 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:50,998 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:51,141 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:51,308 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:51,326 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:51,395 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:51,426 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:51,448 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:51,454 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:07:51,454 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:55,921 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:55,936 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:55,990 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:56,168 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:56,224 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:56,260 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:56,284 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:56,293 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:24:56,306 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:33,641 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:33,946 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:34,038 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:34,148 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:34,231 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:34,256 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:34,285 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:34,294 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 08:30:34,314 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,112 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,113 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,249 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,341 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,445 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,492 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,499 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,518 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-03 09:02:05,519 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js

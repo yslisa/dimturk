@@ -1,1 +1,2 @@
-Requires the dev version of psiturk (http://psiturk.org/). 
+DimensionsTask
+==============
