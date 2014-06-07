@@ -13,8 +13,6 @@ function handleTick(event) {
      stage.update();
  }
 
-// Reading filename 
-
 
 // Converting string to an integer 
 parseInt("123", 10);
@@ -30,30 +28,31 @@ isFinite();
 // Creating an object 
 var obj = {};
 
-
-// Shuffle an array (courtesy of Google)
-function shuffle(o){ //v1.0
-    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-    return o;
-};
-
-// Generate random array of n discrete features 
-
-nfeats = 9;
-
-function makeArray(count, content) {
-   var result = [];
-   if(typeof(content) == "function") {
-      for(var i=0; i<count; i++) {
-         result.push(content(i));
-      }
-   } else {
-      for(var i=0; i<count; i++) {
-         result.push(content);
-      }
-   }
-   return result;
+// Defining a class, some attributes and a method
+function Person(gender,height) { 
+  this.gender = gender;
+  this.height = height;
 }
 
-var features = shuffle(makeArray(nfeats, function(i) { return i+1; }));
+Person.prototype.gender = '';
+Person.prototype.sayHello = function () {
+  console.log('hello');
+};
+
+var person1 = new Person('Male',5.5);
+var person2 = new Person('Female',5.7);
+
+console.log(person1.gender);
+console.log(person2.gender);
+console.log(person1.height);
+console.log(person2.height);
+
+person1.sayHello(); 
+
+
+
+
+
+
+
 

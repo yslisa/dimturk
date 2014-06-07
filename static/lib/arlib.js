@@ -1,4 +1,4 @@
-// Angela Radulescu's helper functions js library 
+// Angela Radulescu's helper js library 
 // April 1st, 2014
 
 // Shuffle an array (courtesy of Google)
@@ -32,9 +32,40 @@ function makeVector(count, content) {
    return result;
 }
 
-// Generate 1:N array 
-function genArray(N) {
+// Generate 1:N vector 
+function genVec(N) {
 	var result = [];
 	result = makeVector(N, function(i) { return i+1; });
 	return result;
+}
+
+// Generate random numbers from a uniform distribution (courtesy of JSB)
+function jsb_runif(min,max,n){ 
+	min = typeof min!== 'undefined' ? min : 0; // default min=0
+	max = typeof max!== 'undefined' ? max : 1; // default max=1
+	n = typeof n!== 'undefined' ? n : 1; // default n=1
+
+	var vals = []; // init
+	var ii = 0;
+	var range = max-min;
+	while(ii<n){
+		vals[ii] = Math.random()*range + min;
+		ii++;
+	}
+	return vals;
+}
+
+// Generate rand numbers from a normal distribution	(courtesy of JSB)
+function jsb_rnorm(mean,sd,n){ 
+	mean = typeof mean!== 'undefined' ? mean : 0; // default mean=0
+	sd = typeof sd!== 'undefined' ? sd : 1; // default sd=1
+	n = typeof n!== 'undefined' ? n : 1; // default n=1
+
+	var vals = []; // init
+	var ii = 0;
+	while(ii<n){
+		vals[ii] = ( (Math.random()*2-1)+(Math.random()*2-1)+(Math.random()*2-1) )*sd + mean;
+		ii++;
+	}
+	return vals;
 }

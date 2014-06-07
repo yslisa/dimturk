@@ -11,6 +11,7 @@ var psiTurk = PsiTurk(uniqueId, adServerLoc);
 var pages = [
 	"instruct.html",
 	"stage.html",
+	"gameend.html",
 	"postquestionnaire.html"
 ];
 
@@ -71,15 +72,15 @@ var TestPhase = function() {
 	_.shuffle(stims);
 
 	// choose feature
-	/* 0 = green
-	   1 = red
-	   2 = yellow
-	   3 = square
-	   4 = circle
-	   5 = triangle
-	   6 = # # # 
-	   7 = • • •
-	   8 = ~ ~ ~
+	/* 1 = green
+	   2 = red
+	   3 = yellow
+	   4 = square
+	   5 = circle
+	   6 = triangle
+	   7 = # # # 
+	   8 = • • •
+	   9 = ~ ~ ~
 	*/
 	if (game == 1)
 		feature = Math.floor(Math.random()*9)
@@ -97,24 +98,27 @@ var TestPhase = function() {
 			game+=1;
 			if (game > numGames)
 				finish();
-			else
-				TestPhase();
+			else {
+				$("body").unbind("keydown", response_handler); // Unbind keys
+	    		currentview = new GameEnd();
+			}
+				//TestPhase();
 		}
 		// fixation cross
 		else {
 			stim = stims.shift();
-			show_shape("blank", "Fix", "blank");
+			show_stim("blank", "Fix", "blank");
 			setTimeout(present_stimuli, 1000)
 			
 		}
 	};
 
-	// present 3 shapes
+	// present 3 stims
 	var present_stimuli = function() {
-		show_shape(stim[0], stim[1], stim[2]);
+		show_stim(stim[0], stim[1], stim[2]);
 		wordon = new Date().getTime();
 		listening = true;
-		d3.select("#query").html('<br><p id="prompt">Type "1" for the first shape, "2" for the second, "3" for the third.</p>');
+		d3.select("#query").html('<br><p id="prompt">Type "b" for the first figure, "n" for the second, "m" for the third.</p>');
 	}
 	
 	var response_handler = function(e) {
@@ -143,13 +147,18 @@ var TestPhase = function() {
 		if (response.length>0) {
 			listening = false;
 			//var hit = response == stim[3];           // whether the participant chose the correct dimension
-			var compare = stim[response-1].charAt(feature/3)
-			var hit = compare == (feature%3)+1
+			var compare = stim[response-1].charAt(feature/3);
+			var hit = compare == (feature%3)+1;
 			var rt = new Date().getTime() - wordon;  // reaction time
 			var gained = 0;
 
 			if (rt > 2000) {
-				show_shape("blank", "Slow", "blank");
+				if (response == "1")
+							show_stim("Slow", "blank", "blank");
+						else if (response == "2")
+							show_stim("blank", "Slow", "blank");
+						else
+							show_stim("blank", "blank", "Slow");
 			}
 
 			else {
@@ -160,20 +169,40 @@ var TestPhase = function() {
 					if (rand < 0.75) {
 						points+=1;
 						gained = 1;
-						show_shape("blank", "Win", "blank");
+						if (response == "1")
+							show_stim("Win", "blank", "blank");
+						else if (response == "2")
+							show_stim("blank", "Win", "blank");
+						else
+							show_stim("blank", "blank", "Win");
 					}
 					else {
-						show_shape("blank", "Lose", "blank");
+						if (response == "1")
+							show_stim("Lose", "blank", "blank");
+						else if (response == "2")
+							show_stim("blank", "Lose", "blank");
+						else
+							show_stim("blank", "blank", "Lose");
 					}
 				}
 				else {
 					// +1 with .25 probability
 					if (rand < 0.75)
-						show_shape("blank", "Lose", "blank");
+						if (response == "1")
+							show_stim("Lose", "blank", "blank");
+						else if (response == "2")
+							show_stim("blank", "Lose", "blank");
+						else
+							show_stim("blank", "blank", "Lose");
 					else { 
 						points+=1;
 						gained = 1;
-						show_shape("blank", "Win", "blank");
+						if (response == "1")
+							show_stim("Win", "blank", "blank");
+						else if (response == "2")
+							show_stim("blank", "Win", "blank");
+						else
+							show_stim("blank", "blank", "Win");
 					}
 				}
 			}
@@ -182,7 +211,7 @@ var TestPhase = function() {
                                      'stimuli1':stim[0],
                                      'stimuli2':stim[1],
                                      'stimuli3':stim[2],
-                                     'feature': feature,  // feature
+                                     'feature': feature+1,  // feature
                                      'response':response, // user input
                                      'hit':hit,           // whether correct feature was chosen
                                      'outcome':gained,    // point earned
@@ -198,8 +227,8 @@ var TestPhase = function() {
 	    currentview = new Questionnaire();
 	};
 	
-	var show_shape = function(shape1, shape2, shape3) {
-		remove_shape();
+	var show_stim = function(stim1, stim2, stim3) {
+		remove_stim();
 		// diplay game#
 		d3.select("#points")
 			.append("div")
@@ -216,14 +245,14 @@ var TestPhase = function() {
 
 		// three stimuli
 		d3.select("#stim1")
-			.attr("src","/static/images/stimuli/"+shape1+".png")
+			.attr("src","/static/images/stimuli/"+stim1+".png")
 		d3.select("#stim2")
-			.attr("src","/static/images/stimuli/"+shape2+".png")
+			.attr("src","/static/images/stimuli/"+stim2+".png")
 		d3.select("#stim3")
-			.attr("src","/static/images/stimuli/"+shape3+".png")
+			.attr("src","/static/images/stimuli/"+stim3+".png")
 	};
 
-	var remove_shape = function() {
+	var remove_stim = function() {
 		d3.select("#total").remove();
 		d3.select("#gamenum").remove();
 		//d3.select("#win").remove();
@@ -241,6 +270,23 @@ var TestPhase = function() {
 	next();
 };
 	
+/****************
+* Game End *
+****************/
+
+var GameEnd = function() {
+
+	var response_handler2 = function(e) {
+
+		$("body").unbind("keydown", response_handler2); // Unbind keys
+	    currentview = new TestPhase();
+	};
+
+
+	psiTurk.showPage('gameend.html');
+	$("body").focus().keydown(response_handler2); 
+};
+
 
 
 /****************
