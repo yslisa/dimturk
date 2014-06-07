@@ -748,12 +748,48 @@ TemplateNotFound: sync
 2014-06-06 23:26:56,619 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2014-06-06 23:26:56,640 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2014-06-06 23:26:56,643 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,134 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,140 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,262 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,389 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,412 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,422 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,423 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,427 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
-2014-06-06 23:33:35,435 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:19,645 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:19,763 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:19,792 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:19,894 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:19,954 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:19,993 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:20,023 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:20,027 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 04:52:20,039 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:53:54 [4280] [CRITICAL] WORKER TIMEOUT (pid:4288)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4289)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4290)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4291)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4292)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4284)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4285)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4286)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4287)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4288)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4289)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4290)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4291)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4292)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4284)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4285)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4286)
+2014-06-07 06:53:56 [4280] [CRITICAL] WORKER TIMEOUT (pid:4287)
+2014-06-07 06:54:01,954 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:54:01,954 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:54:01,954 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:54:01,955 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:54:01,955 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:54:01,955 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:54:01,956 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:54:01,956 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 06:54:01,956 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,433 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,520 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,644 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,829 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,835 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,838 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,847 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,877 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2014-06-07 09:41:01,887 /Users/lisakim/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js

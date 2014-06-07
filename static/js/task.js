@@ -28,6 +28,9 @@ var feature = 0;
 
 
 
+
+
+
 /********************
 * HTML manipulation
 *
@@ -46,6 +49,7 @@ var TestPhase = function() {
 	var wordon, // time word is presented
 	    listening = false;
 
+	var firstTime = true;
 	
 
 	// Stimuli 
@@ -57,6 +61,7 @@ var TestPhase = function() {
 	var color = ["1", "2", "3"];
 	var shape = ["1", "2", "3"];
 	var pattern = ["1", "2", "3"];
+
 
 
 	for (var i = 0; i < numTrials; i++) {
@@ -107,7 +112,7 @@ var TestPhase = function() {
 		// fixation cross
 		else {
 			stim = stims.shift();
-			show_stim("blank", "Fix", "blank");
+			show_stim("Fix", null, null);
 			setTimeout(present_stimuli, 1000)
 			
 		}
@@ -153,12 +158,8 @@ var TestPhase = function() {
 			var gained = 0;
 
 			if (rt > 2000) {
-				if (response == "1")
-							show_stim("Slow", "blank", "blank");
-						else if (response == "2")
-							show_stim("blank", "Slow", "blank");
-						else
-							show_stim("blank", "blank", "Slow");
+				show_stim("Slow", response, null);
+
 			}
 
 			else {
@@ -169,40 +170,23 @@ var TestPhase = function() {
 					if (rand < 0.75) {
 						points+=1;
 						gained = 1;
-						if (response == "1")
-							show_stim("Win", "blank", "blank");
-						else if (response == "2")
-							show_stim("blank", "Win", "blank");
-						else
-							show_stim("blank", "blank", "Win");
+						show_stim("Win", response, null);
+
 					}
 					else {
-						if (response == "1")
-							show_stim("Lose", "blank", "blank");
-						else if (response == "2")
-							show_stim("blank", "Lose", "blank");
-						else
-							show_stim("blank", "blank", "Lose");
+						show_stim("Lose", response, null);
+
 					}
 				}
 				else {
 					// +1 with .25 probability
 					if (rand < 0.75)
-						if (response == "1")
-							show_stim("Lose", "blank", "blank");
-						else if (response == "2")
-							show_stim("blank", "Lose", "blank");
-						else
-							show_stim("blank", "blank", "Lose");
+						show_stim("Lose", response, null);
+
 					else { 
 						points+=1;
 						gained = 1;
-						if (response == "1")
-							show_stim("Win", "blank", "blank");
-						else if (response == "2")
-							show_stim("blank", "Win", "blank");
-						else
-							show_stim("blank", "blank", "Win");
+						show_stim("Win", response, null);
 					}
 				}
 			}
@@ -243,19 +227,123 @@ var TestPhase = function() {
 			.style("text-align","right")
 			.text("Points: "+points)
 
-		// three stimuli
-		d3.select("#stim1")
-			.attr("src","/static/images/stimuli/"+stim1+".png")
-		d3.select("#stim2")
-			.attr("src","/static/images/stimuli/"+stim2+".png")
-		d3.select("#stim3")
-			.attr("src","/static/images/stimuli/"+stim3+".png")
+
+		if (firstTime) {
+			firstTime = false;
+			paper = new Raphael(document.getElementById('canvas_container'), 800, 150);
+		}
+		else {
+			paper.clear();
+			//paper = new Raphael(document.getElementById('canvas_container'), 800, 150);
+		}
+
+		if (stim3 == null ){
+			if (stim1 == "Fix") {
+				//cross = paper.path("M25.979,12.896 19.312,12.896 19.312,6.229 12.647,6.229 12.647,12.896 5.979,12.896 5.979,19.562 12.647,19.562 12.647,26.229 19.312,26.229 19.312,19.562 25.979,19.562z")
+	 			cross = paper.path("M 245 70 l 0 5 l 5 0 l 0 5 l 5 0 l 0 -5 l 5 0 l 0 -5 l -5 0 l 0 -5 l -5 0 l 0 5 l -5 0");
+	 			cross.attr({fill: "white"});
+			}
+			else if (stim1 == "Slow") {
+				if (stim2 == "1")
+					var t = paper.text(80, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
+				else if (stim2 == "2")
+					var t = paper.text(250, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
+				else
+					var t = paper.text(420, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
+			}
+			else if (stim1 == "Win") {
+				if (stim2 == "1")
+					var t = paper.text(80, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
+				else if (stim2 == "2")
+					var t = paper.text(250, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
+				else
+					var t = paper.text(420, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
+			}
+			else if (stim1 == "Lose") {
+				if (stim2 == "1")
+					var t = paper.text(80, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
+				else if (stim2 == "2")
+					var t = paper.text(250, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
+				else
+					var t = paper.text(420, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
+			}
+		}
+
+		else {
+
+	   		/* FIRST STIMULI */
+	   		if (stim1.charAt(1) == 1)
+	   			var left = paper.rect(10, 10, 120, 120);
+	   		else if (stim1.charAt(1) == 2)
+	   			var left = paper.circle(80, 70, 60);
+	   		else
+	   			var left = paper.path("M 15 130 l 120 0 l -60 -115 z");
+
+	   		if (stim1.charAt(0) == 1)
+	   			left.attr({stroke: 'Green', 'stroke-width': 15});
+	   		else if (stim1.charAt(0) == 2)
+	   			left.attr({stroke: 'Red', 'stroke-width': 15});
+	   		else
+	   			left.attr({stroke: 'Yellow', 'stroke-width': 15});
+
+	   		if (stim1.charAt(2) == 1)
+	   			left.attr({fill: "url('/static/images/stimuli/cross.jpg')"});
+	   		else if (stim1.charAt(2) == 2)
+	   			left.attr({fill: "url('/static/images/stimuli/dots.png')"});
+	   		else
+	   			left.attr({fill: "url('/static/images/stimuli/tilde1.jpg')"});
+
+	   		/* SECOND STIMULI */
+	   		if (stim2.charAt(1) == 1)
+				var mid = paper.rect(190, 10, 120, 120);
+			else if (stim2.charAt(1) == 2)
+				var mid = paper.circle(250, 70, 60);
+			else
+				var mid = paper.path("M 190 130 l 120 0 l -60 -115 z");
+
+	 		if (stim2.charAt(0) == 1)
+	   			mid.attr({stroke: 'Green', 'stroke-width': 15});
+	   		else if (stim2.charAt(0) == 2)
+	   			mid.attr({stroke: 'Red', 'stroke-width': 15});
+	   		else
+	   			mid.attr({stroke: 'Yellow', 'stroke-width': 15});
+
+	   		if (stim2.charAt(2) == 1)
+	   			mid.attr({fill: "url('/static/images/stimuli/cross.jpg')"});
+	   		else if (stim2.charAt(2) == 2)
+	   			mid.attr({fill: "url('/static/images/stimuli/dots.png')"});
+	   		else
+	   			mid.attr({fill: "url('/static/images/stimuli/tilde1.jpg')"});
+	 		
+
+	   		/* THIRD STIMULI */
+	   		if (stim3.charAt(1) == 1)
+				var right = paper.rect(360, 10, 120, 120);
+			else if (stim3.charAt(1) == 2)
+				var right = paper.circle(420, 70, 60);
+			else
+				var right = paper.path("M 360, 130, l 120 0 l -60 -115 z");
+	 		
+	 		if (stim3.charAt(0) == 1)
+	   			right.attr({stroke: 'Green', 'stroke-width': 15});
+	   		else if (stim3.charAt(0) == 2)
+	   			right.attr({stroke: 'Red', 'stroke-width': 15});
+	   		else
+	   			right.attr({stroke: 'Yellow', 'stroke-width': 15});
+
+	   		if (stim3.charAt(2) == 1)
+	   			right.attr({fill: "url('/static/images/stimuli/cross.jpg')"});
+	   		else if (stim3.charAt(2) == 2)
+	   			right.attr({fill: "url('/static/images/stimuli/dots.png')"});
+	   		else
+	   			right.attr({fill: "url('/static/images/stimuli/tilde1.jpg')"});
+ 		}
 	};
 
 	var remove_stim = function() {
 		d3.select("#total").remove();
 		d3.select("#gamenum").remove();
-		//d3.select("#win").remove();
+
 	};
 
 	
