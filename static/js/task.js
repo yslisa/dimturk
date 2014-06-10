@@ -49,8 +49,7 @@ var TestPhase = function() {
 	var wordon, // time word is presented
 	    listening = false;
 
-	var firstTime = true;
-	
+	var firstTime = true;	
 
 	// Stimuli 
 
@@ -107,13 +106,12 @@ var TestPhase = function() {
 				$("body").unbind("keydown", response_handler); // Unbind keys
 	    		currentview = new GameEnd();
 			}
-				//TestPhase();
 		}
 		// fixation cross
 		else {
 			stim = stims.shift();
 			show_stim("Fix", null, null);
-			setTimeout(present_stimuli, 1000)
+			setTimeout(present_stimuli, 500);
 			
 		}
 	};
@@ -131,22 +129,27 @@ var TestPhase = function() {
 
 		var keyCode = e.keyCode,
 			response;
+		var chosenstim;
 
 		switch (keyCode) {
 			case 66:
 				// "b"
 				response="1";
+				chosenstim = stim[0];
 				break;
 			case 78:
 				// "n"
 				response="2";
+				chosenstim = stim[1];
 				break;
 			case 77:
 				// "m"
 				response="3";
+				chosenstim = stim[2];
 				break;
 			default:
 				response = "";
+				chosenstim = "";
 				break;
 		}
 		if (response.length>0) {
@@ -158,7 +161,7 @@ var TestPhase = function() {
 			var gained = 0;
 
 			if (rt > 2000) {
-				show_stim("Slow", response, null);
+				show_feedback("Slow", response);
 
 			}
 
@@ -170,23 +173,23 @@ var TestPhase = function() {
 					if (rand < 0.75) {
 						points+=1;
 						gained = 1;
-						show_stim("Win", response, null);
+						show_feedback("Win", response, chosenstim);
 
 					}
 					else {
-						show_stim("Lose", response, null);
+						show_feedback("Lose", response, chosenstim);
 
 					}
 				}
 				else {
 					// +1 with .25 probability
 					if (rand < 0.75)
-						show_stim("Lose", response, null);
+						show_feedback("Lose", response, chosenstim);
 
 					else { 
 						points+=1;
 						gained = 1;
-						show_stim("Win", response, null);
+						show_feedback("Win", response, chosenstim);
 					}
 				}
 			}
@@ -202,13 +205,76 @@ var TestPhase = function() {
                                      'rt':rt}
                                    );
 
-			setTimeout(next, 1000);
+			setTimeout(next, 500);
 		}
 	};
 
 	var finish = function() {
 	    $("body").unbind("keydown", response_handler); // Unbind keys
 	    currentview = new Questionnaire();
+	};
+
+
+	var show_feedback = function(what, where, stim) {
+		
+
+		remove_stim();
+		// diplay game#
+		d3.select("#points")
+			.append("div")
+			.attr("id","gamenum")
+			.style("text-align","left")
+			.text("Game: "+game)
+
+		// display total points
+		d3.select("#points")
+			.append("div")
+			.attr("id","total")
+			.style("text-align","right")
+			.text("Points: "+points)
+
+		if (where == "1") {
+			mid.remove();
+			right.remove();
+		}
+		else if (where == "2"){
+			left.remove();
+			right.remove();
+		}
+		else {
+			left.remove();
+			mid.remove();
+		}
+		
+
+		
+
+		if (what == "Slow") {
+				if (where == "1")
+					var t = fb_paper.text(70, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
+				else if (where == "2")
+					var t = fb_paper.text(250, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
+				else
+					var t = fb_paper.text(420, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
+			}
+		else if (what == "Win") {
+			if (where == "1")
+				var t = fb_paper.text(70, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
+			else if (where == "2")
+				var t = fb_paper.text(250, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
+			else
+				var t = fb_paper.text(420, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
+		}
+		else if (what == "Lose") {
+			if (where == "1")
+				var t = fb_paper.text(70, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
+			else if (where == "2")
+				var t = fb_paper.text(250, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
+			else
+				var t = fb_paper.text(420, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
+		}
+
+
 	};
 	
 	var show_stim = function(stim1, stim2, stim3) {
@@ -231,60 +297,37 @@ var TestPhase = function() {
 		if (firstTime) {
 			firstTime = false;
 			paper = new Raphael(document.getElementById('canvas_container'), 800, 150);
+			fb_paper = new Raphael(document.getElementById('feedback'), 800, 150);
 		}
 		else {
+			fb_paper.clear();
 			paper.clear();
-			//paper = new Raphael(document.getElementById('canvas_container'), 800, 150);
 		}
 
-		if (stim3 == null ){
-			if (stim1 == "Fix") {
-				//cross = paper.path("M25.979,12.896 19.312,12.896 19.312,6.229 12.647,6.229 12.647,12.896 5.979,12.896 5.979,19.562 12.647,19.562 12.647,26.229 19.312,26.229 19.312,19.562 25.979,19.562z")
-	 			cross = paper.path("M 245 70 l 0 5 l 5 0 l 0 5 l 5 0 l 0 -5 l 5 0 l 0 -5 l -5 0 l 0 -5 l -5 0 l 0 5 l -5 0");
-	 			cross.attr({fill: "white"});
-			}
-			else if (stim1 == "Slow") {
-				if (stim2 == "1")
-					var t = paper.text(80, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
-				else if (stim2 == "2")
-					var t = paper.text(250, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
-				else
-					var t = paper.text(420, 70, "TOO\nSLOW").attr({"font-size": 20, fill: "white"});
-			}
-			else if (stim1 == "Win") {
-				if (stim2 == "1")
-					var t = paper.text(80, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
-				else if (stim2 == "2")
-					var t = paper.text(250, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
-				else
-					var t = paper.text(420, 70, "YOU WIN\n1\npoint").attr({"font-size": 20, fill: "white"});
-			}
-			else if (stim1 == "Lose") {
-				if (stim2 == "1")
-					var t = paper.text(80, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
-				else if (stim2 == "2")
-					var t = paper.text(250, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
-				else
-					var t = paper.text(420, 70, "SORRY\n0\npoint").attr({"font-size": 20, fill: "white"});
-			}
+		if (stim1 == "Fix" ){
+
+			//cross = paper.path("M25.979,12.896 19.312,12.896 19.312,6.229 12.647,6.229 12.647,12.896 5.979,12.896 5.979,19.562 12.647,19.562 12.647,26.229 19.312,26.229 19.312,19.562 25.979,19.562z")
+ 			cross = paper.path("M 245 70 l 0 5 l 5 0 l 0 5 l 5 0 l 0 -5 l 5 0 l 0 -5 l -5 0 l 0 -5 l -5 0 l 0 5 l -5 0");
+ 			cross.attr({fill: "white"});
+			
 		}
 
 		else {
 
 	   		/* FIRST STIMULI */
 	   		if (stim1.charAt(1) == 1)
-	   			var left = paper.rect(10, 10, 120, 120);
+	   			left = paper.rect(10, 10, 120, 120);
 	   		else if (stim1.charAt(1) == 2)
-	   			var left = paper.circle(80, 70, 60);
+	   			left = paper.circle(70, 70, 60);
 	   		else
-	   			var left = paper.path("M 15 130 l 120 0 l -60 -115 z");
+	   			left = paper.path("M 15 130 l 120 0 l -60 -115 z");
 
 	   		if (stim1.charAt(0) == 1)
-	   			left.attr({stroke: 'Green', 'stroke-width': 15});
+	   			left.attr({stroke: "rgb(58, 122, 42)", 'stroke-width': 15});
 	   		else if (stim1.charAt(0) == 2)
-	   			left.attr({stroke: 'Red', 'stroke-width': 15});
+	   			left.attr({stroke: "rgb(189, 62, 62)", 'stroke-width': 15});
 	   		else
-	   			left.attr({stroke: 'Yellow', 'stroke-width': 15});
+	   			left.attr({stroke: "rgb(207, 202, 74)", 'stroke-width': 15});
 
 	   		if (stim1.charAt(2) == 1)
 	   			left.attr({fill: "url('/static/images/stimuli/cross.jpg')"});
@@ -295,18 +338,18 @@ var TestPhase = function() {
 
 	   		/* SECOND STIMULI */
 	   		if (stim2.charAt(1) == 1)
-				var mid = paper.rect(190, 10, 120, 120);
+				mid = paper.rect(190, 10, 120, 120);
 			else if (stim2.charAt(1) == 2)
-				var mid = paper.circle(250, 70, 60);
+				mid = paper.circle(250, 70, 60);
 			else
-				var mid = paper.path("M 190 130 l 120 0 l -60 -115 z");
+				mid = paper.path("M 190 130 l 120 0 l -60 -115 z");
 
 	 		if (stim2.charAt(0) == 1)
-	   			mid.attr({stroke: 'Green', 'stroke-width': 15});
+	   			mid.attr({stroke: "rgb(58, 122, 42)", 'stroke-width': 15});
 	   		else if (stim2.charAt(0) == 2)
-	   			mid.attr({stroke: 'Red', 'stroke-width': 15});
+	   			mid.attr({stroke: "rgb(189, 62, 62)", 'stroke-width': 15});
 	   		else
-	   			mid.attr({stroke: 'Yellow', 'stroke-width': 15});
+	   			mid.attr({stroke: "rgb(207, 202, 74)", 'stroke-width': 15});
 
 	   		if (stim2.charAt(2) == 1)
 	   			mid.attr({fill: "url('/static/images/stimuli/cross.jpg')"});
@@ -318,18 +361,18 @@ var TestPhase = function() {
 
 	   		/* THIRD STIMULI */
 	   		if (stim3.charAt(1) == 1)
-				var right = paper.rect(360, 10, 120, 120);
+				right = paper.rect(360, 10, 120, 120);
 			else if (stim3.charAt(1) == 2)
-				var right = paper.circle(420, 70, 60);
+				right = paper.circle(420, 70, 60);
 			else
-				var right = paper.path("M 360, 130, l 120 0 l -60 -115 z");
+				right = paper.path("M 360, 130, l 120 0 l -60 -115 z");
 	 		
 	 		if (stim3.charAt(0) == 1)
-	   			right.attr({stroke: 'Green', 'stroke-width': 15});
+	   			right.attr({stroke: "rgb(58, 122, 42)", 'stroke-width': 15});
 	   		else if (stim3.charAt(0) == 2)
-	   			right.attr({stroke: 'Red', 'stroke-width': 15});
+	   			right.attr({stroke: "rgb(189, 62, 62)", 'stroke-width': 15});
 	   		else
-	   			right.attr({stroke: 'Yellow', 'stroke-width': 15});
+	   			right.attr({stroke: "rgb(207, 202, 74)", 'stroke-width': 15});
 
 	   		if (stim3.charAt(2) == 1)
 	   			right.attr({fill: "url('/static/images/stimuli/cross.jpg')"});
