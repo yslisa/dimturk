@@ -296,8 +296,8 @@ var TestPhase = function() {
 
 		if (firstTime) {
 			firstTime = false;
-			paper = new Raphael(document.getElementById('canvas_container'), 800, 150);
-			fb_paper = new Raphael(document.getElementById('feedback'), 800, 150);
+			paper = new Raphael(document.getElementById('canvas_container'), 500, 150);
+			fb_paper = new Raphael(document.getElementById('feedback'), 500, 150);
 		}
 		else {
 			fb_paper.clear();
